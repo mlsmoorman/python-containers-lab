@@ -26,9 +26,10 @@ for food in foods:
 
 # Hint: Use the slice operator to select the last two foods
 print('========== Exercise 3 Solution ==========')
-# === if we're following the hint using the slice operator, we don't need a for loop
-print(foods[-2:])
 
+last_two = foods[-2:]
+for food in last_two:
+    print(food)
 
 
 # Exercise 4
@@ -36,6 +37,7 @@ print(foods[-2:])
 # Print a string with this format:
 # "I was born in city, state - population of population"
 print('========== Exercise 4 Solution ==========')
+
 
 
 
