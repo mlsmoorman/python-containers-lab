@@ -4,7 +4,7 @@
 # Print out the last student's name.
 print('========== Exercise 1 Solution ==========')
 
-students = ['Melissa', 'Carlos','Jessi', 'Chris', 'Nichole']
+students = ['Melissa', 'Carlos', 'Jessi', 'Chris', 'Nichole']
 
 print('Second Student: ', students[1])
 print('Last Student: ', students[-1])
@@ -15,6 +15,10 @@ print('Last Student: ', students[-1])
 # Use a for loop to print out the string "[food goes here] is a good food".
 print('========== Exercise 2 Solution ==========')
 
+foods = 'lasagna', 'turkey', 'ham', 'salad', 'enchiladas', 'tamales'
+
+for food in foods:
+    print(f'{food} is a good food')
 
 
 # Exercise 3
@@ -22,6 +26,8 @@ print('========== Exercise 2 Solution ==========')
 
 # Hint: Use the slice operator to select the last two foods
 print('========== Exercise 3 Solution ==========')
+# === if we're following the hint using the slice operator, we don't need a for loop
+print(foods[-2:])
 
 
 
