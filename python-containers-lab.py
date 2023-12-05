@@ -99,5 +99,14 @@ for awesome_student in awesome_students:
 # Within the for loop, print each food string.
 print('========== Exercise 8 Solution ==========')
 
+list = []
+
+for food in foods:
+    if food.find('a') > -1:
+        list.append(food)
+
+for list_item in list:
+    print(list_item)
+
 
 
