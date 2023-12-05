@@ -54,6 +54,8 @@ print(f'I was born in {home_town['city']}, {home_town['state']} - population of 
 # "population = 58000"
 print('========== Exercise 5 Solution ==========')
 
+for key, val in home_town.items():
+    print(f'{key} = {val}')
 
 
 # Exercise 6
