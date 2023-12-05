@@ -74,15 +74,28 @@ for key, val in home_town.items():
 # Iterate over the cohort list, printing out each item (it's not necessary to format the dictionaries).
 print('========== Exercise 6 Solution ==========')
 
+cohorts = []
+
+for idx, student in enumerate(students):
+    cohorts.append({'student': {student}, 'fav_food': {foods[idx]}})
+
+for cohort in cohorts:
+    print(cohort)
 
 
 # Exercise 7
 # Using the list of students and a list comprehension, assign to a variable named awesome_students a new list containing strings similar to this:
 # ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
 # Iterate over the awesome_students list, printing out each string.
+print('========== Exercise 7 Solution ==========')
+
+awesome_students = []
+
+
 # Exercise 8
 # Use a for loop to iterate over a list comprehension that filters the foods tuple to only include food strings that contains the letter a.
 # Within the for loop, print each food string.
-print('========== Exercise 7 Solution ==========')
+print('========== Exercise 8 Solution ==========')
+
 
 
