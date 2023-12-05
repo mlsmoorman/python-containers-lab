@@ -89,8 +89,10 @@ for cohort in cohorts:
 # Iterate over the awesome_students list, printing out each string.
 print('========== Exercise 7 Solution ==========')
 
-awesome_students = []
+awesome_students = [f'{student} is awesome!' for student in students]
 
+for awesome_student in awesome_students:
+    print(awesome_student)
 
 # Exercise 8
 # Use a for loop to iterate over a list comprehension that filters the foods tuple to only include food strings that contains the letter a.
