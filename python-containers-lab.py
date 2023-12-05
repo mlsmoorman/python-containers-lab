@@ -38,7 +38,13 @@ for food in last_two:
 # "I was born in city, state - population of population"
 print('========== Exercise 4 Solution ==========')
 
+home_town = {
+    'city': 'Phoenix',
+    'state': 'AZ',
+    'population': '1.625 million'
+}
 
+print(f'I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}.')
 
 
 # Exercise 5
