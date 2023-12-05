@@ -18,7 +18,7 @@ print('========== Exercise 2 Solution ==========')
 foods = 'lasagna', 'turkey', 'ham', 'salad', 'enchiladas', 'tamales'
 
 for food in foods:
-    print(f'{food} is a good food')
+    print(f'{food.capitalize()} is a good food!')
 
 
 # Exercise 3
